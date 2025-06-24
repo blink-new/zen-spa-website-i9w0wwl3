@@ -116,7 +116,7 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="pt-16 min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 to-primary/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-stone-50 to-green-50"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="float-animation">
             <Leaf className="w-16 h-16 text-primary mx-auto mb-8" />
@@ -215,7 +215,7 @@ function App() {
             </div>
             
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/30 rounded-3xl flex items-center justify-center">
+              <div className="aspect-square bg-gradient-to-br from-stone-100 to-green-100 rounded-3xl flex items-center justify-center">
                 <div className="text-center gentle-pulse">
                   <Leaf className="w-24 h-24 text-primary mx-auto mb-4" />
                   <p className="text-lg font-serif text-foreground">Harmony • Balance • Peace</p>
